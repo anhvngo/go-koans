@@ -6,8 +6,8 @@ func aboutSlices() {
 	assert(fruits[0] == __string__) // slices seem like arrays
 	assert(len(fruits) == __int__)  // in nearly all respects
 
-	tasty_fruits := fruits[1:3]           // we can even slice slices
-	assert(tasty_fruits[0] == __string__) // slices of slices also share the underlying data
+	tastyFruits := fruits[1:3]           // we can even slice slices
+	assert(tastyFruits[0] == __string__) // slices of slices also share the underlying data
 
 	pregnancy_slots := []string{"baby", "baby", "lemon"}
 	assert(cap(pregnancy_slots) == __int__) // the capacity is initially the length
