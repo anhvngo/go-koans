@@ -24,19 +24,19 @@ const (
 var __runner__ runner = nil
 
 func TestKoans(t *testing.T) {
-	/*aboutBasics()
+	aboutBasics()
 	aboutStrings()
 	aboutArrays()
 	aboutSlices()
 	aboutTypes()
 	aboutControlFlow()
-	aboutEnumeration() */
+	aboutEnumeration()
 	aboutAnonymousFunctions()
-	/*aboutVariadicFunctions()
-	aboutFiles() */
+	aboutVariadicFunctions()
+	aboutFiles() 
 	aboutInterfaces()
-	/*aboutCommonInterfaces()
-	aboutMaps()
+	aboutCommonInterfaces()
+	/*aboutMaps()
 	aboutPointers()
 	aboutStructs()
 	aboutAllocation()
