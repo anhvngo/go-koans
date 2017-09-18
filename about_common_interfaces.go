@@ -11,10 +11,10 @@ func aboutCommonInterfaces() {
 		in.WriteString("hello world")
 
 		out := new(bytes.Buffer)
-		_, err := io.Copy(out, in)
-		if err != nil {
+		if _, err := io.Copy(out, in); err != nil {
 			return
 		}
+
 		/*
 		   Your code goes here.
 		   Hint, use these resources:
